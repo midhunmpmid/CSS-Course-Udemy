@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hero section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "Inter", sans-serif;
+        color: #444;
+      }
+      nav {
+        font-size: 20px;
+        font-weight: 700px;
+        display: flex;
+        justify-content: space-between;
+      }
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+      section {
+        padding: 96px 0;
+      }
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+      header {
+        /* background-color: aquamarine; */
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        color: #fff;
+        padding-top: 32px;
+        font-weight: 200;
+      }
+      .header-container {
+        width: 1200px;
+        position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+        /* background-color: antiquewhite; */
+      }
+      .header-container-inner {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>Logo</div>
+        <div>Navigation</div>
+      </nav>
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium magni laborum, provident vel quia reprehenderit
+            aspernatur fuga illo consequuntur saepe deleniti suscipit tenetur
+          </p>
+          <a href="#" class="btn">Lorem ipsum.</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+          asperiores, dignissimos vel modi rem ea quisquam reprehenderit
+          distinctio consectetur, maxime nihil aut, excepturi saepe? Laborum eos
+          aspernatur neque nihil repudiandae! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Ullam doloremque, rerum tempora enim
+          nam, odit dignissimos ex sapiente minus officia corrupti minima
+          delectus quo dicta aliquam quia assumenda? Sequi, magni.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
